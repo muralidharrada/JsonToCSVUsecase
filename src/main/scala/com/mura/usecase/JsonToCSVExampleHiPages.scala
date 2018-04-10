@@ -35,8 +35,8 @@ output
     val sc = spark.sparkContext
     
     var inputPath = "file:///C://Users//pc//Desktop//Hipages//source_event_data.json"
-    var outputPath1 = "file:///C://Users//pc//Desktop//Hipages//firstresult.csv"
-    var outputPath2 = "file:///C://Users//pc//Desktop//Hipages//secondresult.csv"
+    var outputPath1 = "file:///C://Users//pc//Desktop//Hipages//firstresult"
+    var outputPath2 = "file:///C://Users//pc//Desktop//Hipages//secondresult"
     
     val rdd = sc.textFile(inputPath)
 
