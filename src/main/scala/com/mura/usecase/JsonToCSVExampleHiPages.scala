@@ -106,7 +106,7 @@ output
                from SourceTable 
                group by timestamp_tbl2,activity,url_level1,url_level2
                """)
-    sql1.write
+    sql2.write
    .option("header","true")
    .csv(outputPath2)
    
